@@ -1,0 +1,53 @@
+  15-the given is odd or even?
+9=;-invalid
+=10;-invalid
+a=5;-valid
+b=a;-valid
+c=a+b;-valid
+10+0;-invalid
+printf("%d %d %d \n", 10);
+printf("%d %d %d \n");
+printf("%d %d %d \n", 18, 20, 30,40);
+printf("%d %f %c \n", 10, 30.5, '4');
+printf("%d\n", 10+3);
+printf("%d %d %d \n", 5, 2, 10);
+printf("%d\n", 7.5);
+printf("%d\n",5);
+printf("%d\n", 5%-2);
+printf("%d", 5/2);
+printf("%d", 5.0%2);
+printf("%d", 5.0/2);
+printf("%d %d %d", "%d %d", 10, 20, 30, 40)
+printf("hello", "hai", "bye");
+printf("hello""hai""bye");
+printf(""hello"");
+printf("""hello""");
+printf("**"hello"""");
+printf("10 20", "%d");
+printf("10 %d", "%d");
+relation operator
+  ><>=<= == !=
+  5>4->1
+  5>5->0
+  5<4->0
+  5<5->0
+  5>=4->1
+  5>=5->1
+  5<=4->0
+  5<=5->1
+  5==5->1
+  5!=5->0
+  5=5--1value required
+  5>;--error
+    calculate simple interes?
+    10%
+    x+(x*10/100)
+    int main()
+  {
+    int amount =100;
+    int per=10;
+    int time=8;
+    int interest=amount +(amount*per/100);
+    printf("%d",interest*time);
+    return 0;
+  }
