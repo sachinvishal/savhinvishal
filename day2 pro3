@@ -1,0 +1,60 @@
+relation operator
+  ><>=<= == !=
+  5>4->1
+  5>5->0
+  5<4->0
+  5<5->0
+  5>=4->1
+  5>=5->1
+  5<=4->0
+  5<=5->1
+  5==5->1
+  5!=5->0
+  5=5--1value required
+  5>;--error
+    calculate simple interes?
+    10%
+    x+(x*10/100)
+    int main()
+  {
+    int amount =100;
+    int per=10;
+    int time=8;
+    int interest=amount +(amount*per/100);
+    printf("%d",interest*time);
+    return 0;
+  }
+5>2<4>5
+1<4<5=1>5=0
+5>6>3<4>9<8
+0<3<4>9<8=1<4>9<8=1>9<8=0<8=1
+4>3<2>4<2<1
+order of precedence
+*/%
++-
+> < >=<=
+== !=
+=
+5+6>5<7<2-1*4
+5+6>5<7<-2
+11>5<7-2
+1<7<-2
+1<-2
+0
+5==7> <9 >=8!=5
+5==1<9>=8!=5
+5==1>=8!=5
+5==0!=5
+0!
+#include <stdio.h>
+int main()
+{
+int a;
+scanf("%d",&a);
+if(a%2){
+printf("given number is odd");
+  else{
+printf("givn number is even");
+}
+return 0;
+}
