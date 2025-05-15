@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+   
+  int a,rem,sum=0;
+  scanf("%d",&a);//5
+ 
+   while(a>0)//2<=50
+    {
+       rem=a%10;
+       a=a/10;
+       sum=sum+rem;
+    }    
+    printf("%d",sum);//2
+       
+   
+   
+
+    return 0;
+}
