@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{anf("%d",&year);
+    if
+    int year;
+    sc (year%400==0 || year%100!=0 && year%4==0)
+    printf("leap year");
+    else
+    printf("non leap year");
+    return 0;
+}
